@@ -1,0 +1,30 @@
+/*frankenstiening the mapbox and jump */
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#map{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+#dataContainerOrientation{
+	position: absolute;
+	width: 400px;
+	height: 40px;
+	z-index: 5;
+	top: 200px;
+	left: 30px;
+}
+
+#dataContainerMotion{
+	position: absolute;
+	width: 400px;
+	height: 40px;
+	z-index: 5;
+	top: 250px;
+	left: 30px;
+}
